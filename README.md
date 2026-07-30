@@ -6,7 +6,7 @@ actually be *used* inside a shelter's intake system.
 > **What this is in one line:** an animal is entered at intake → a quiet flag surfaces
 > for the ones worth an early closer look → staff decide what to do next.
 
-**[▶ Open the prototype](./shelter_intake_prototype.html)** — download the HTML and open
+**[▶ Open the prototype](https://github.com/chienchien50425-alt/Animal_Flagging_Tool_Prototype/blob/main/shelter_intake_prototype.html)** — download the HTML and open
 it in any browser. No install, no server, no build step.
 
 ---
@@ -45,7 +45,7 @@ The trained model is **embedded directly in the HTML file** (the tree structure 
 serialised into the page), so the flags you see come from the real model rather than a
 mock-up.
 
-**→ `<https://github.com/chienchien50425-alt/Long-Stay-Prediction-Austin-Animal-Shelter>`**
+**→ [Long Stay Prediction Model](https://github.com/chienchien50425-alt/Long-Stay-Prediction-Austin-Animal-Shelter)**
 
 ---
 
