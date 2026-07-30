@@ -6,8 +6,9 @@ actually be *used* inside a shelter's intake system.
 > **What this is in one line:** an animal is entered at intake → a quiet flag surfaces
 > for the ones worth an early closer look → staff decide what to do next.
 
-**[▶ Open the code](https://github.com/chienchien50425-alt/Animal_Flagging_Tool_Prototype/blob/main/shelter_intake_prototype.html)** — download the HTML and open
-it in any browser. No install, no server, no build step.
+**[▶ Open the Code](https://github.com/chienchien50425-alt/Animal_Flagging_Tool_Prototype/blob/main/shelter_intake_prototype.html)** — download the HTML and open
+it in any browser. No install, no server, no build step.  
+**[▶ Open the Demonstration Video on Youtube](https://youtu.be/rBSQtaRDyzg)** 
 
 ---
 
@@ -62,12 +63,6 @@ displayed as-is. Full details on the dataset and how it was obtained are documen
 shelter_intake_prototype.html   # the entire prototype — UI + embedded model + sample data
 README.md
 ```
-
----
-
-*Built as a portfolio piece to demonstrate deployment thinking: taking a trained model
-and making a deliberate, honest decision about how it should show up in front of the
-people who'd actually use it.*
 
 ---
 
