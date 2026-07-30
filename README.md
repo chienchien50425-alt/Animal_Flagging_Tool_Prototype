@@ -6,8 +6,7 @@ actually be *used* inside a shelter's intake system.
 > **What this is in one line:** an animal is entered at intake → a quiet flag surfaces
 > for the ones worth an early closer look → staff decide what to do next.
 
-**[▶ Open the prototype](https://github.com/chienchien50425-alt/Animal_Flagging_Tool_Prototype/blob/main/shelter_intake_prototype.html)** — download the HTML and open
-it in any browser. No install, no server, no build step.
+**[▶ Open the prototype](https://youtu.be/jtwl_GtZCH0)**
 
 ---
 
