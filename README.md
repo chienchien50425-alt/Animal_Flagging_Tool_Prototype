@@ -8,7 +8,7 @@ actually be *used* inside a shelter's intake system.
 
 **[▶ Open the Code](https://github.com/chienchien50425-alt/Animal_Flagging_Tool_Prototype/blob/main/shelter_intake_prototype.html)** — download the HTML and open
 it in any browser. No install, no server, no build step.  
-**[▶ Open the Demonstration Video on Youtube](https://youtu.be/rBSQtaRDyzg)** 
+**[▶ Open the Demonstration Video on Youtube](https://youtu.be/xw7UkQaCvNw)** 
 
 ---
 
