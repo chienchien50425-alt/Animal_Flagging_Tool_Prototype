@@ -1,7 +1,8 @@
 # Shelter Long-Stay Screening — Deployment Prototype
 
-**[▶ Open the prototype](./shelter_intake_prototype.html)** — download the HTML and open it
-in any browser. No install, no server, no build step.
+**[▶ Open the Code](https://github.com/chienchien50425-alt/Animal_Flagging_Tool_Prototype/blob/main/shelter_intake_prototype.html)** — download the HTML and open
+it in any browser. No install, no server, no build step.  
+**[▶ Open the Demonstration Video on YouTube](https://youtu.be/xw7UkQaCvNw)**
 
 > An animal is entered at intake, and a quiet flag surfaces the ones worth an early closer look.
 
@@ -83,7 +84,7 @@ held-out 2024 records:
 Real records from the public Austin Animal Center dataset, shown as-is. The dataset,
 the modelling and the operating-point choice are documented in the modelling repository:
 
-**→ <https://github.com/chienchien50425-alt/Long-Stay-Prediction-Austin-Animal-Shelter>**
+**→ [Long Stay Prediction Model](https://github.com/chienchien50425-alt/Long-Stay-Prediction-Austin-Animal-Shelter)**
 
 ---
 
