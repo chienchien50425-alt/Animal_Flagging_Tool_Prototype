@@ -2,9 +2,17 @@
 
 > An animal is entered at intake, and a quiet flag surfaces the ones worth an early closer look.  
 
-**[▶ Open the Code](https://github.com/chienchien50425-alt/Animal_Flagging_Tool_Prototype/blob/main/shelter_intake_prototype.html)** — download the HTML and open
-it in any browser.  
 **[▶ Open the Demonstration Video on YouTube](https://youtu.be/xw7UkQaCvNw)**
+
+## Same data, three jobs
+
+One Austin Animal Center dataset, three repositories with different jobs:
+
+| Repository | Its job |
+|---|---|
+| [BI dashboard](https://github.com/chienchien50425-alt/Austin-Animal-Shelter-PowerBI-Dashboard) | Yearly overview of operational performance, monthly monitor for decision-making |
+| [Long-stay prediction model](https://github.com/chienchien50425-alt/Long-Stay-Prediction-Austin-Animal-Shelter) | Builds and back-tests the model: feature selection, rolling-origin validation, the 30%-of-trailing-90-days operating point |
+| **This repo** | Puts the model in front of the person who'd use it, on the day an animal arrives |
 
 ## The problem
 
@@ -41,8 +49,6 @@ year, plus body size for dogs. Trained on 2013–2023 and tested on **2024**.
 
 ## Data
 
-Real records from the public Austin Animal Center dataset, shown as-is. The dataset,
-the modelling are documented in the modelling repository:
-
-**→ [Long Stay Prediction Model](https://github.com/chienchien50425-alt/Long-Stay-Prediction-Austin-Animal-Shelter)**
+Everything here is built on Austin Animal Center's own public records, published on the
+[City of Austin Open Data Portal](https://data.austintexas.gov/). 
 
