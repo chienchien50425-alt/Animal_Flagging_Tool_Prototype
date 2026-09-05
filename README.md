@@ -49,6 +49,5 @@ year, plus body size for dogs. Trained on 2013–2023 and tested on **2024**.
 
 ## Data
 
-Everything here is built on Austin Animal Center's own public records, published on the
-[City of Austin Open Data Portal](https://data.austintexas.gov/). 
+Everything here is built on Austin Animal Center's own public records, published on the **City of Austin Open Data Portal**.
 
