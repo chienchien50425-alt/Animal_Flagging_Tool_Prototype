@@ -1,8 +1,9 @@
 # Shelter Long-Stay Screening — Deployment Prototype
 
-**[▶ Open the Code](https://github.com/chienchien50425-alt/Animal_Flagging_Tool_Prototype/blob/main/shelter_intake_prototype.html)** — download the HTML and open
-it in any browser. No install, no server, no build step.  
-**[▶ Open the Demonstration Video on YouTube](https://youtu.be/xw7UkQaCvNw)**
+**[▶ Open the Live Demo](https://chienchien50425-alt.github.io/Animal_Flagging_Tool_Prototype/)** — runs entirely in your browser.
+No install, no server, no build step.  
+**[▶ Open the Demonstration Video on YouTube](https://youtu.be/xw7UkQaCvNw)**  
+[View the source](https://github.com/chienchien50425-alt/Animal_Flagging_Tool_Prototype/blob/main/shelter_intake_prototype.html) — a single HTML file; download it to run offline.
 
 > An animal is entered at intake, and a quiet flag surfaces the ones worth an early closer look.
 

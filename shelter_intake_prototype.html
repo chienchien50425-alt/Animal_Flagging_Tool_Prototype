@@ -4,6 +4,12 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Intake &mdash; Long-Stay Screening</title>
+<meta name="description" content="An animal is entered at intake, and a quiet flag surfaces the ones worth an early closer look. A shelter long-stay screening model running entirely in your browser.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Intake Desk — Long-Stay Screening">
+<meta property="og:description" content="An animal is entered at intake, and a quiet flag surfaces the ones worth an early closer look. A shelter long-stay screening model running entirely in your browser.">
+<meta property="og:url" content="https://chienchien50425-alt.github.io/Animal_Flagging_Tool_Prototype/">
+<meta name="twitter:card" content="summary">
 <style>
   /* ---------- Design tokens ----------
      Palette: a calm records-software workstation. Ink & slate carry everything;
@@ -176,9 +182,17 @@
   .breadcrumb button{background:0;border:0;color:var(--focus);cursor:pointer;font-family:var(--sans);font-size:12px;padding:0;}
 
   @media (max-width:820px){
-    .body{flex-direction:column;}
+    /* Stacked: one natural page scroll instead of two nested panes fighting for a phone
+       screen (and no 100vh, which mobile Safari measures under its address bar). */
+    .app{height:auto;min-height:100vh;}
+    .body{flex-direction:column;min-height:auto;}
     .queue{flex:0 0 auto;max-height:40vh;border-right:0;border-bottom:1px solid var(--line);}
+    .detail{overflow:visible;min-height:auto;padding:20px 16px 32px;}
     .fields,.form-grid{grid-template-columns:1fr;}
+  }
+  @media (max-width:480px){
+    .topbar{align-items:center;padding:10px 16px;}
+    .wordmark .sub{display:block;margin-left:0;margin-top:1px;}
   }
   @media (prefers-reduced-motion:reduce){*{transition:none!important;animation:none!important;}}
 
