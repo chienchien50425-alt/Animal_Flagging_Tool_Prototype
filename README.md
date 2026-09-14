@@ -2,8 +2,7 @@
 
 > An animal is entered at intake, and a quiet flag surfaces the ones worth an early closer look.  
 
-**[▶ Open the Live Demo](https://chienchien50425-alt.github.io/Animal_Flagging_Tool_Prototype/)** — runs entirely in your browser, no install.  
-**[▶ Open the Demonstration Video on YouTube](https://youtu.be/xw7UkQaCvNw)**
+**[▶ Open the Live Demo](https://chienchien50425-alt.github.io/Animal_Flagging_Tool_Prototype/)** — runs entirely in browser.  
 
 ## Same data, three jobs
 
