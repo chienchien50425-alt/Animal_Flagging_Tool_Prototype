@@ -599,10 +599,8 @@ var ENGINE = (function () {
       + '<div class="ftext"><div class="ftitle">'
       + (on ? 'Flagged for early attention' : 'Not flagged') + '</div>'
       + '<div class="fbody">' + (on
-        ? 'This animal scores in the busiest ' + pct + '% of the last ' + P.meta.window_days
-          + ' days of intake. Worth a closer look now.'
-        : 'This animal does not rank in the top ' + pct + '% of the last ' + P.meta.window_days
-          + ' days.') + '</div>'
+        ? "This animal's long-stay risk is in the top " + pct + '% of recent intakes. Worth a closer look now.'
+        : "This animal's long-stay risk is not in the top " + pct + '% of recent intakes.') + '</div>'
       + '<div class="cutline"><span>score <b>' + p.toFixed(3) + '</b></span>'
       + '<span>cut-off <b>' + (isFinite(thr) ? thr.toFixed(3) : 'n/a') + '</b></span>'
       + '<span class="rule">top ' + pct + '% of the previous ' + P.meta.window_days + ' days</span>'
