@@ -235,10 +235,6 @@
   }
   .erarow .wk{font-size:12.5px;color:var(--slate-2);text-align:right;font-style:italic;}
   .erarow .wv{font-family:var(--mono);font-size:11.5px;color:var(--slate-2);}
-  .era-note{
-    grid-column:1 / -1;font-size:11px;color:var(--slate-2);line-height:1.5;
-    margin-top:5px;padding-left:142px;
-  }
 
   /* Out-of-range warning on the new-intake form (dates past the reference window). */
   .warn{
@@ -254,7 +250,6 @@
   .result-head h1{font-size:18px;}
   @media (max-width:820px){
     .whyrow,.why .axis,.erarow{grid-template-columns:110px 1fr 56px;}
-    .era-note{padding-left:0;}
   }
 </style>
 </head>
@@ -641,10 +636,7 @@ var ENGINE = (function () {
       + '" style="width:' + Math.min(Math.abs(era) / max * 50, 50).toFixed(1)
       + '%;opacity:.35"></div></div>'
       + '<div class="wv">' + (era > 0 ? '+' : '−') + Math.abs(era).toFixed(2) + '</div>'
-      + '<p class="era-note">Era baseline. The model reads the intake year, so this amount is '
-      + 'shared by every animal that arrived the same year — it says nothing about this one. '
-      + 'It is shown because it is usually the largest single term, and hiding it would make the '
-      + 'rest look bigger than it is.</p></div></div>';
+      + '</div></div>';
   }
 
   /* ---------- record view ---------- */
